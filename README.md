@@ -10,7 +10,7 @@ Ensure you have the necessary dependencies installed. You can install them using
 ```sh
 pip install -r requirements.txt
 ```
-Specific is pydub lib, you should search for how to instal it properly.
+Especially pydub lib, you should search how to install it properly.
 
 ## How to Use
 
