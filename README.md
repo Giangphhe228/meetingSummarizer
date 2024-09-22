@@ -4,6 +4,23 @@
 
 This project provides a set of Python scripts for processing audio files and generating meeting transcripts. The scripts perform various tasks including converting audio files, generating transcriptions, rechecking and filling missing transcriptions, and summarizing the meetings. 
 
+## Requirements
+
+Ensure you have the necessary dependencies installed. You can install them using:
+```sh
+pip install -r requirements.txt
+```
+Specific is pydub lib, you should search for how to instal it properly.
+
+## How to Use
+
+1. Place the audio files in the input folder.
+2. Open gemini.py file and replace "YOUR_API_KEY" variable with the api key from aistudio google.
+3. Cd to the folder location and then Run the `convert` script to convert the audio files.
+4. Run the `run` script to generate meeting transcripts.
+5. Run the `recheck` script to fill in any missing transcriptions.
+6. Run the `summarize` script to summarize the meeting transcripts.
+
 ## Scripts
 
 ### 1. `convert`
@@ -42,20 +59,7 @@ python action.py recheck
 python action.py summarize
 ```
 
-## How to Use
 
-1. Place the audio files in the input folder.
-2. Run the `convert` script to convert the audio files.
-3. Run the `run` script to generate meeting transcripts.
-4. Run the `recheck` script to fill in any missing transcriptions.
-5. Run the `summarize` script to summarize the meeting transcripts.
-
-## Requirements
-
-Ensure you have the necessary dependencies installed. You can install them using:
-```sh
-pip install -r requirements.txt
-```
 
 ## Contributing
 
@@ -65,9 +69,6 @@ If you would like to contribute to this project, please fork the repository and 
 
 This project is licensed under the FPT Telecom License.
 
-## Contact
-
-For any questions or issues, please contact Leo Vu at leovu0703vn@gmail.com.
 
 ---
 
